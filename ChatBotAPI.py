@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-from main import chatWithBot
+from learning import chatWithBot
 import unicodedata
 
 app = Flask(__name__)
