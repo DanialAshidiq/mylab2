@@ -1,6 +1,5 @@
 from flask import Flask , request , jsonify
-# from learning import 
-import learning
+from learning import chatWithBot
 
 app = Flask(__name__)
 
