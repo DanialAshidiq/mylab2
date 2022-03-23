@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/chat')
 def chat():
      chatInput = request.form['chatInput']
-     return '<h1>' + jsonify(chatBotReply=chatWithBot(chatInput))  + '</h1>'
+     return jsonify(chatBotReply=chatWithBot(chatInput))
 
 
 @app.route('/index')
