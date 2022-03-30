@@ -33,6 +33,18 @@
          "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
          "responses": ["We are open 7am-4pm Monday-Friday!"],
          "context_set": ""
+        },
+        {"tag": "happy",
+         "patterns": ["HAPPY", "I am Happy", "happiness"],
+         "responses": ["Great! I hope you enjoy yourself!", "Stay happy friend!"],
+         "context_set": ""
+        },
+        {"tag": "tired",
+         "patterns": ["TIRED", "I am Tired", "Tiring"],
+         "responses": ["Oh no! I hope you are okay! Here is a link for you!: www.betterhelp.com"],
+         "context_set": ""
         }
+
+
    ]
 }
