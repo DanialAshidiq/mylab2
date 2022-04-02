@@ -1,47 +1,47 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "patterns": ["Hi Wickie!", "Are you there Wickie?", "Hello Wickie", "Good Morning Wickie"],
+         "responses": ["Good to see you! How are you feeling? Say: I am feeling great if you feel happy, or I am feeling sad if you feel sad?", "Happy to see you! How are you feeling? Say: I am feeling great if you feel happy, or I am feeling sad if you feel sad?", "Hi there, how can I help? Say: I am feeling great if you feel happy, or I am feeling sad if you feel sad"],
          "context_set": ""
         },
-        {"tag": "greetingMore",
-         "patterns": [ "How are you", "Whats up"],
-         "responses": ["I am fine!, How about you?", "I am good, you?"],
+        {"tag": "Exercise",
+         "patterns": [ "Exercise Done", "I am done with the exercise"],
+         "responses": ["Awesome! Are you feeling better? Say: I'm feeling better or I do not feel better"],
          "context_set": ""
         },
         {"tag": "goodbye",
-         "patterns": ["cya", "Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "patterns": ["Thank you", "Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Happy to help! Talk to you later!", "Okaee, >_< talk to you later!", "Goodbyeee! <3"],
          "context_set": ""
         },
-        {"tag": "age",
-         "patterns": ["how old", "how old is John", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 25 years old!", "18 years young!"],
+        {"tag": "sad",
+         "patterns": ["I am feeling really sad", "I am very tired", "I am facing some issues", "I need help", "I am depressed"],
+         "responses": ["Oh no! What seems to be the problem? Your mental-wellbeing is very important to me, Is it stress? Is it health-related?", "Oh no! What issues are you facing? Your mental-wellbeing is very important to me and the company, Is it stress? Or Health?"],
          "context_set": ""
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me John.", "I'm John!", "I'm John aka John Doe."],
+         "responses": ["You can call me Wickie.", "I'm Wickie!", "I'm Wickie aka Wiki Nuts hehe."],
          "context_set": ""
         },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+        {"tag": "stress",
+         "patterns": ["Yeah, I think its stress", "Yep, it is stress", "Yeah, been stressful lately", "ya i feel stress sia"],
+         "responses": ["Oh dear, how about we take a 5 minutes break from your work, let's do a short breathing exercise! Say Okay! I am ready to begin"],
          "context_set": ""
         },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
+        {"tag": "ready",
+         "patterns": ["Okay! I am ready", "Yes, I am ready", "I am ready"],
+         "responses": ["Great! Breathe in and count to 10 slowly, and breathe out! Once you are done let me know! Say: Exercise done!"],
          "context_set": ""
         },
         {"tag": "happy",
-         "patterns": ["HAPPY", "I am Happy", "happiness","Good Mood Today!", "my mood is happy"],
-         "responses": ["Great! I hope you enjoy yourself!", "Stay happy friend!"],
+         "patterns": ["I am feeling fine", "I am feeling better", "Yes I am feeling better","Good Mood Today!", "my mood is happy"],
+         "responses": ["Great! I hope you enjoy yourself! If you still face any issues, we are here for you!", "Stay happy friend! Do take breaks between work! If you still face any issues, we are here for you!","Great! Make sure to take breaks between your work and if you still face any issues, we are here for you!"],
          "context_set": ""
         },
         {"tag": "tired",
-         "patterns": ["TIRED", "I am Tired", "Tiring"],
-         "responses": ["Oh no! I hope you are okay! Here is a link for you!: www.betterhelp.com"],
+         "patterns": ["I do not feel better", "No, I do not feel better", "I still do not feel good"],
+         "responses": ["Oh my, a solution for you friend is you can seek help through this website, www.betterhelp.com, I think it is okay to feel sad and stressed, be open up to the solution and seek a therapist if you really need it, your mental-wellbeing is truly important to us"],
          "context_set": ""
         }
    ]
